@@ -137,8 +137,6 @@ function clearInputs() {
 }
 if (newWorkout) {
   newWorkout.addEventListener("click", function(event) {
-    alert("click");
-
     API.createWorkout(event);
   });
 }
