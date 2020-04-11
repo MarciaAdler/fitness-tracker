@@ -22,3 +22,29 @@ The user should be able to:
 <li>View multiple the combined weight of multiple exercises on the stats page.</li>
 
 </ul>
+
+## How to use
+
+<ul>
+<li>Once you clone the code, open and run an npm install to install the following packages:
+    <ul>
+    <li>express</li>
+    <li>mongoose</li>
+    <li>morgan</li>
+    </ul>
+</li>
+<li>Once the npm packages are installed, you can run the app locally by typing run node server in the terminal.  The app will run on your local machine at port 3000.</li>
+<li>Once on the app, you can view your last workout, continue your last workout, or add a new workout.  You can also view the dashboard to view the statistics of your workouts.</li>
+
+## Live App
+
+The live app is hosted on Heroku and can be viewed at: https://vast-oasis-67368.herokuapp.com
+
+## Screen shots
+
+Homepage
+![fitness app homepage](fitnessApphomepage.png)
+Add a workout page
+![fitness app add page](fitnessAppAdd.png)
+Dashboard
+![fitness app dashboard](fitnessAppDashboard.png)
